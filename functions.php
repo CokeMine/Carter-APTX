@@ -20,6 +20,11 @@
 /*
     頁首圖片支持！
 */
+/*
+    链接支持
+*/
+	add_filter( 'pre_option_link_manager_enabled', '__return_true' );
+
 $defaults = array(
 	'default-image'          => '',
 	'width'                  => 1800,
